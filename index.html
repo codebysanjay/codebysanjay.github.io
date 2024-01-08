@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Mohan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<div id="myOverlay" class="my_overlay" style="display: none;">
+    <ul>
+        <li><a href="/index.html" class="active">Work</a></li>
+        <li> <a href="/about.html">About</a></li>
+        <li><a href="/about.html#contact" class="contact">Contact</a></li>
+    </ul>
+    <div class="close_button" onclick="myFunction()">Close</div>
+</div>
+<body>
+
+    <nav class="navbar">
+        <label class="checkbtn"><a href="javascript:void(0);"   onclick="myFunction()">&#9776;</a></label>
+        <label class="logo">sa.</label>
+        <ul class="navbar_items">
+            <li><a href="/index.html" class="active">Work</a></li>
+            <li> <a href="/about.html">About</a></li>
+            <li><a href="/about.html#contact" class="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <header class="title_header ">
+        <div class="title_card ">
+            <h2 class="title_name">Hello, I’m Sanjay Mohan.</h2>
+            <p class="title_bio">Android aficionado from India, crafting innovative apps that captivate users and
+                conquer the market.</p>
+        </div>
+        <image class="down_arrow_title" src="down_arrow.png"></image>
+    </header>
+    <main>
+        <section class="project">
+            <div>
+                <h2 class="project_title">01/Hacker News App</h2>
+                <p class="project_desc">Develop a user-friendly and efficient Android app for browsing Hacker News, a
+                    popular technology news aggregator.</p>
+                <p class="project_tech_stack">Technical Stack</p>
+                <ul class="project_tools">
+                    <li>Jetpack Compose: Build a modern and expressive UI with Kotlin.</li>
+                    <li>Hilt: Manage dependencies efficiently with dependency injection.</li>
+                    <li>Room: Persist data locally for offline access.</li>
+                    <li>Retrofit: Fetch data from the Hacker News API.</li>
+                </ul>
+                <p class="project_more_details"><a  target="_blank" href="https://github.com/codebysanjay/HackerNews">More shots from this project ↗</a></p>
+            </div>
+            <div class="project_image_container">
+                <img class="project_image" src="github_icon.webp">
+            </div>
+        </section>
+        <hr class="rounded divider">
+        <section class="project">
+            <div>
+                <h2 class="project_title">02/Emergency Alerter</h2>
+                <p class="project_desc">This simple yet impactful tool helps users share their current location via SMS with a single tap, or speed dial emergency numbers in a crisis. Imagine the peace of mind it brings, knowing help is just a tap away.</p>
+                <p class="project_tech_stack">Technical Stack</p>
+                <ul class="project_tools">
+                    <li>Flutter: Build a modern and expressive UI with Kotlin.</li>
+                    <li>Git: Most popular version control system.</li>
+                    <li>Third party libraries like url_launcher, geolocator.</li>
+                </ul>
+                <p class="project_more_details"><a  target="_blank" href="https://github.com/codebysanjay/appathon">More shots from this project ↗</a></p>
+            </div>
+            <div class="project_image_container">
+                <img class="project_image" src="github_icon.webp">
+            </div>
+        </section>
+        <hr class="rounded divider">
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <p><a href="https://www.linkedin.com/in/sanjay--mohan" target="_blank">Linked In</a></p>
+            <p><a href="https://twitter.com/sanjaymohan17" target="_blank">X</a></p>
+          </div>
+    </footer>
+    <div>
+
+    </div>
+
+</body>
+
+</html>
